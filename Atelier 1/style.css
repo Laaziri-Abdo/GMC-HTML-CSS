@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+    margin: 20px auto;   
+    background-image: url(./images/bg-pattern-bottom-desktop.svg);
+
+}
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 40px;
+    text-align: start;
+}
+.container1{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center; 
+    align-content: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+   
+    
+}
+.p{
+    color: hsl(303, 10%, 53%) ;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+}
+div{
+    padding: 10px;
+}
+.div{
+    width: 520px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "one one ."
+    ". tree tree";
+   
+}
+.one{
+    grid-area: one;
+}
+.two{
+    grid-area: two;
+}
+.tree{
+    grid-area: tree;
+}
+h5{
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    margin-top: 25px;
+   
+}
+.text{
+    margin-right: 100PX;
+    margin-top: 25px;
+    text-align: initial;
+}
+.star{
+    height: 60px;
+    border-radius: 4px;
+    background-color: hsl(300, 24%, 96%);
+    display: grid;
+    grid-template-columns:120px 250px;
+    margin: 5px auto;
+}
+.abo{
+    position: relative;
+    bottom: 8px;
+}
