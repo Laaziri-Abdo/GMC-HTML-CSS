@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.panel {
+    background-color: rgb(255, 255, 255);
+}
+
+.parcing-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.pricing-plan {
+    height: 40rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    border: 1px solid rgb(170, 170, 170);
+}
+.pricing-img{
+    width: 10rem;
+    height: 10rem;
+}
+.pricing-header{
+    color: blue;
+    font-size: medium;
+}
+.pricing-features{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 6rem;
+    width: 10rem;
+    color: #0073ff;
+
+}
+
+.pricing-features-item{
+    list-style: none;
+    font-size: smaller;
+    text-align: center;
+}
+.pricing-price{
+    color: #047af9;
+    font-size: 30px;
+    font-weight: 700;
+}
+.pricing-button{
+    border: 1px solid ;
+    color: #0073ff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 130px;
+}
+.pricing-button:hover{
+    background-color: #1eb7d9;
+    transition: all 1.5s;
+}
+a{
+    text-decoration: none;
+}

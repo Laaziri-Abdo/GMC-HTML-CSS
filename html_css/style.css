@@ -1,0 +1,26 @@
+body{
+    background-color: burlywood;
+}
+.p1{
+    color: red;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+} 
+.p2{
+    font-size: 30px;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: start;
+    border-style: solid;
+    border-color: bisque;
+}
+.div1{
+    background-color: black;
+    border-style: solid;
+    border-color: bisque;
+    
+}
+
+
+ 
