@@ -65,7 +65,7 @@
     height: 50px;
     width: 130px;
 }
-.pricing-button:hover{
+.pricing-button:hover{ 
     background-color: #1eb7d9;
     transition: all 1.5s;
 }
